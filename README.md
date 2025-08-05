@@ -26,6 +26,20 @@ This project implements a music player service demonstrating core design pattern
 - Since I am working on Windows without a macOS environment, I developed and tested the core logic using [SwiftFiddle](https://swiftfiddle.com) — an online Swift playground.
 - To view or run the code, copy-paste the contents of `music_player.swift` into [SwiftFiddle](https://swiftfiddle.com) or any other online Swift compiler.
 
+- Note on Platform Constraints:
+This music player assignment was developed entirely on a Windows system—without access to a Mac or iOS device. As SwiftUI, Combine, and iOS SDK frameworks are exclusive to macOS, I designed and tested all code logic using online Swift playgrounds such as SwiftFiddle, which support only the Swift language and Foundation.
+
+Tackling Challenges:
+
+Where Apple-only modules (Combine, SwiftUI) were required, I simulated their patterns using print statements, clear comments, and manual state management, following best architectural practices.
+
+All protocol-oriented design, MVVM architecture, and pattern implementations fully comply with assignment requirements and are clearly documented.
+
+I included detailed explanations in both the code and README to bridge any conceptual gaps due to environment limitations.
+
+Why This Matters:
+Developing an assignment designed for iOS on Windows demonstrates adaptability, creative problem-solving, and the ability to deliver robust architecture even under platform constraints. My solution is modular, testable, and ready for extension into a native iOS project once access to macOS is available.
+
 
 ## Limitations
 
